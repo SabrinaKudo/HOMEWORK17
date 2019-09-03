@@ -1,0 +1,349 @@
+
+h2{
+
+        font-family: Montserrat; 
+}
+/* BANNER & NAV*/
+
+#cover{
+    background:linear-gradient(35deg,#FA7268, #868686);
+    height: 210px;
+    opacity: 2; 
+}
+
+    #navContainer{
+        height: 100px;
+        display: grid; 
+        grid-template-columns: 750px 200px 200px 200px 200px;
+        opacity: 1; 
+        width:100%;
+        padding-bottom:3px;
+        padding-top:3px;
+        grid-column-gap: 5px;
+        top:3px;
+        /*position:fixed;*/
+        background-color: rgba(0, 0, 0, 0.20);
+        font-family: Montserrat; 
+        font-weight: bolder;
+        font-size:20px;
+        color: black;
+       
+    }
+
+        #area1{
+            grid-column: 1;
+            display: inline-block;
+            height: 100px;
+        }
+            #homeLogo{
+                height: 90%;
+                padding-top:10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+
+        #areaA{
+            grid-column: 2;
+            display: inline-block;
+            text-align: center;
+            padding: 40px 0;
+       
+        
+        }
+
+        #areaB{
+            grid-column: 3;
+            display: inline-block;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        #areaC{
+            grid-column: 4;
+            display: inline-block;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        #areaD{
+            grid-column: 5;
+            display: inline-block;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .navItem:hover{
+            background-color:#99DEDF;
+        }
+        
+        .navItem0:hover{
+            background-color:#99DEDF;
+        }
+    
+        .navItem:focus{
+            color:rgb(139, 203, 204);
+        }
+        
+
+
+#bio{
+    display: flex;
+    height: 700px;
+   margin-top: 50px;
+    
+}
+
+    #bioPic{
+        width:50%;
+    }
+
+    .miff{
+        max-width: 95%;
+        border-radius: 5%;
+        display: block;
+        height:auto;
+        padding: 5px 25px 5px 25px;
+        margin: 5px 5px;
+
+    }
+
+    
+
+
+#moreMe{
+    height: 240px;
+    display: grid;
+    grid-template-columns: 200px 300px;
+
+    /* background-color: pink; */
+    width: 120%;
+    /*padding-bottom:3px;*/
+    padding-top:15px;
+    grid-column-gap: 5px;
+    top:3px;
+   
+
+}
+
+#contactContainer{
+    height: 50px;
+    display: grid; 
+    grid-template-columns: 200px 200px 200px;
+    opacity: 1; 
+    width:100%;
+    padding-bottom:3px;
+    padding-top:3px;
+    grid-column-gap: 5px;
+    top:3px;
+    /*position:fixed;*/
+    /*background-color: rgba(0, 0, 0, 0.20);*/
+    font-family: Montserrat; 
+    font-weight: bolder;
+    font-size:20px;
+    color: black;
+    justify-content: left;
+   
+}
+
+    #linkedin{
+        margin-left: 30px;
+        max-width: 50px;
+
+    }
+
+    #gitHub {
+        margin-left: 30px;
+        max-width: 50px;
+
+    }
+    #letter{
+        margin-left: 30px;
+        max-width: 50px;
+       
+
+    }
+
+    .gridItem{
+        display: inline-block;
+    }
+
+   .gridItem:hover{
+        background-color:#99DEDF;
+   }
+
+
+#hello{
+    height: 500px;
+    width:50%;
+    margin: 10px;
+    padding: 5px 30px 5px 30px;  
+    font-family: Montserrat; 
+}
+
+    #aboutMe{
+        color: #FA7268;
+       padding-bottom: 25px;
+        width: 100%;
+        font-family: Monsterrat;
+        position: relative;
+    }
+
+        /** Animation for #title1**/
+
+        #aboutMe{
+            animation-name: floatTitle1;
+            animation-duration: 3s;
+        }
+
+        @keyframes floatTitle1 {
+        0% {
+            top: 0px;
+        }
+        50% {
+            top: 30px;
+            }
+        100% {
+            top: 0px;
+            }
+        }
+
+#interests{
+    font-family: Monsterrat;
+  
+}
+
+#skills{
+    background-color: #c1ebeb;
+    font-family: Monsterrat;
+    height: 170px;
+
+}
+    #mySkills{
+        color: #FA7268;
+        padding-top:25px;
+        padding-bottom: 25px;
+        padding-left:40px;
+        width: 100%;
+        font-family: Monsterrat;
+    }
+
+    .skillsList{
+        padding-bottom: 30px;
+    }
+
+    li{
+        display: inline;
+        padding-right: 200px; 
+        line-height: 20px;
+        font-family: Monsterrat;
+    }
+
+
+#container-work{
+        height: 500px;
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        font-family: Monsterrat;
+        row-gap: 20px;
+    }
+
+    #box1{
+        background-color: #d3d3d3;
+        height: 300px;
+        width:30%;
+    }
+        #box1:hover{
+            background-color: #99DEDF;
+        }
+     
+
+    
+    #box2 {
+        background-color: #d3d3d3;
+        height: 300px;
+        width:30%;
+    }
+
+        #box2:hover{
+            background-color: #99DEDF;
+            
+        }
+    
+    #box3 {
+        background-color: #d3d3d3;
+        height: 300px;
+        width:30%;
+    }
+    
+        #box3:hover{
+            background-color: #99DEDF;
+            
+        }
+
+    #box4 {
+        background-color: #d3d3d3;
+        height: 300px;
+        width:30%;
+    }
+    #box5 {
+        background-color: #d3d3d3;
+        height: 300px;
+        width:30%;
+    }
+    
+    #box6 {
+        background-color: #d3d3d3;
+        height:300px;
+        width:30%;
+    }
+
+#work{
+    /* background-color:yellow; */
+    font-family: Monsterrat;
+    display: block;
+    height:750px;
+}
+
+    #myWork{
+        color: #FA7268;
+        padding-top:25px;
+        padding-bottom: 25px;
+        padding-left:40px;
+        width: 100%;
+        font-family: Monsterrat;
+    }
+
+    #angel{
+        height:200px;
+        width:90%;
+    }
+
+    #muni{
+        height:200px;
+        width:90%;
+    }
+
+    #mb{
+        height:200px;
+        width:90%;
+    }
+
+    #daisy{
+        height:260px;
+        width:100%;
+    }
+
+
+
+
+    footer{
+        background:linear-gradient(90deg, #99DEDF, grey);
+        height: 120px;
+       font-family: Montserrat; 
+    }
+
+    #end{
+        padding-left:40px;
+    }
